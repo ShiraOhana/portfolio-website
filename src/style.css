@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #936cf5;
+  --title-color: #ac91f1;
+  --secondery-color: #f5f2fe;
+  --shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px;
+}
+
+h1 {
+  font-size: 100px;
+  color: var(--primary-color);
+  margin: 20px;
+}
+h2 {
+  color: var(--title-color);
+  font-size: 50px;
+}
+h3 {
+  color: var(--title-color);
+  font-size: 40px;
+}
+h4 {
+  text-decoration: none;
+}
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 30px;
+}
+button {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  margin: 5px;
+}
+button a {
+  text-decoration: none;
+  color: var(--secondery-color);
+}
+
+.description {
+  display: flex;
+  text-align: center;
+  margin: 5px;
+  flex: 1;
+}
+.description p {
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--secondery-color);
+  border-radius: 4px;
+}
+.contact-email {
+  color: var(--title-color);
+  font-size: 30px;
+}
+.home-page {
+  font-size: 17px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
