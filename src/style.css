@@ -1,18 +1,18 @@
 :root {
-  --primary-color: #936cf5;
-  --title-color: #ac91f1;
+  --primary-color: #e89f91;
+  --title-color: #777a7c;
   --secondery-color: #f5f2fe;
   --shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 70px;
   color: var(--primary-color);
   margin: 20px;
 }
 h2 {
   color: var(--title-color);
-  font-size: 50px;
+  font-size: 30px;
 }
 h3 {
   color: var(--title-color);
@@ -40,6 +40,12 @@ button a {
   text-decoration: none;
   color: var(--secondery-color);
 }
+p {
+  color: var(--title-color);
+}
+a:hover {
+  color: var(--title-color);
+}
 
 .description {
   display: flex;
@@ -63,4 +69,15 @@ button a {
 }
 a {
   text-decoration: none;
+}
+.logo-navbar {
+  width: 50px;
+}
+.app-title {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+.intro-buttons {
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
