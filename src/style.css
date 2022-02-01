@@ -8,7 +8,6 @@
 h1 {
   font-size: 70px;
   color: var(--primary-color);
-  margin: 20px;
 }
 h2 {
   color: var(--title-color);
@@ -49,6 +48,10 @@ a {
 a:hover {
   color: #8c2c4e;
 }
+h4 a {
+  padding: 15px;
+  color: var(--title-color);
+}
 
 .description {
   display: flex;
@@ -62,16 +65,14 @@ a:hover {
   background-color: #f7ebe9;
   border-radius: 4px;
 }
-.contact-email {
-  color: var(--title-color);
-  font-size: 30px;
-}
 .home-page {
   font-size: 17px;
   text-decoration: none;
 }
 .logo-navbar {
   width: 50px;
+  padding: auto;
+  margin: 0;
 }
 .app-title {
   color: var(--primary-color);
@@ -81,10 +82,15 @@ a:hover {
   margin-bottom: 70px;
   margin-top: 40px;
 }
-/* .back-img {
+.back-img {
   width: 100px;
-} */
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+#contact-email {
+  color: var(--primary-color);
+  font-size: 30px;
+  padding: 15px;
 }
